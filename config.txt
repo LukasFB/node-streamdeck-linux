@@ -1,0 +1,58 @@
+0 git folder autoback
+- 1 "commit all" "xdk:Alt_L+s i"
+- 2 "commit file" "xdk:Alt_L+s g i"
+- 3 "push" "xdk:ctrl+shift+k"
+- 4 "pull" "xdk:ctrl+shift+Alt_L+1"
+- 5 "open modified" "xdk:Alt_L+9 ctrl+a Return Alt_L+9"
+- 6 "compare" "xdk:Alt_L+s g y"
+- 7 "revert" "xdk:Alt_L+s g r"
+- 10 "add all" "xdk:Alt_L+F12 g i t space a d d space period Return Alt_L+F12"
+
+1 editor folder autoback
+- 1 "close others" "xdk:Alt_L+w t o"
+- 2 "close unmod" "xdk:Alt_L+w t u"
+- 3 "close all" "xdk:Alt_L+w t a"
+- 4 "close right" "xdk:Shift+ctrl+w"
+- 5 "split ||" "xdk:Alt_L+0x77 t v"
+- 6 "split ==" "xdk:Alt_L+w t h"
+- 7 "scratch buffer" "xdk:Shift Shift n e w space s c r a t c h space b u f f e r && sleep 0.25 && xdotool key Return Escape"
+- 8 "expand all" "xdk:Alt_L+c c Down Right e Return"
+- 9 "collapse all" "xdk:Alt_L+c c Down Right a a Return"
+- 10 "show struct" "xdk:Alt_L+7"
+- 11 "show terminal" "xdk:Alt_L+F12"
+- 12 "soft wraps" "xdk:--delay 12 Shift Shift t o g g l e space s o f t space w r a p s && sleep 0.25 && xdotool key Return Escape"
+
+2 code folder autoback
+- 1 "impl ment" "xdk:Alt_L+c i Return"
+- 2 "over ride" "xdk:Alt_L+c o Return"
+- 3 "change sig" "xdk:Ctrl+F6"
+- 4 "optim imports
+- 5 "surr try catch" "xdk:Ctrl+Alt_L+t 8"
+- 6 "surr if" "xdk:Ctrl+Alt_L+t 2"
+
+" "xdk:Alt_L+c z Return"
+
+3 bkmk folder
+- 1 "set 1" "xdk:Ctrl+F11 1"
+- 2 "set 2" "xdk:Ctrl+F11 2"
+- 3 "set 3" "xdk:Ctrl+F11 3"
+- 4 "set 4" "xdk:Ctrl+F11 4"
+- 6 "goto 1" "xdk:Ctrl+1"
+- 7 "goto 2" "xdk:Ctrl+2"
+- 8 "goto 3" "xdk:Ctrl+3"
+- 9 "goto 4" "xdk:Ctrl+4"
+- 10 "< prev" "xdk:Alt_L+n k r"
+- 11 "next >" "xdk:Alt_L+n k x"
+- 13 "show bkmk" "xdk:Shift+F11"
+- 14 "toggle bkmk" "xdk:Ctrl_L+F11"
+
+4 system folder autoback
+- 1 "redshft day" "exec:_redshift-day"
+- 2 "redshft night" "exec:_redshift-night"
+
+5 "inspect" "xdk:Ctrl+Shift+c"
+10 "click" "xdo:mousemove 3968 1324 click 1"
+11 "up" "xdk:Shift+Page_Up"
+12 prev "exec: playerctl previous"
+13 pause "exec: playerctl play-pause"
+14 next "exec: playerctl next"
